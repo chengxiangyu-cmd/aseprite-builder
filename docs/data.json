@@ -6,12 +6,12 @@
     "published_at": "2026-09-22T17:28:14Z",
     "source_url": "https://github.com/aseprite/aseprite/releases/download/v1.3.18.6/Aseprite-v1.3.18.6-Source.zip",
     "changelog": "## What's Changed\r\n\r\n* Fixed crash introduced in v1.3.18.4 pasting tilemaps + better support to copy & paste tilemaps between different layers/sprites [#6037](https://github.com/aseprite/aseprite/issues/6037) [#6009](https://github.com/aseprite/aseprite/issues/6009)\r\n* Sprite Sheet JSON: Escape line breaks correctly for exported user data [#6044](https://github.com/aseprite/aseprite/issues/6044)\r\n* Fixed base64 encoding for certain brushes in `user.aseprite-brushes` file [#3220](https://github.com/aseprite/aseprite/issues/3220)\r\n* Linux: X11 improvements for resizing and Ctrl+keyboard shortcuts [#6038](https://github.com/aseprite/aseprite/issues/6038)\r\n* Lua API:\r\n  * Fixed dialog relayout not invalidating display and contents [#5766](https://github.com/aseprite/aseprite/issues/5766)\r\n\r\n## PRs\r\n* Escape newlines as part of DocExporter (fix #6044) by @ckaiser in https://github.com/aseprite/aseprite/pull/6045\r\n* Fix build.sh path quoting when the repo path contains spaces. by @Cerallin in https://github.com/aseprite/aseprite/pull/6047\r\n* [lua] Fix dialog relayout not invalidating display and contents (fix #5766) by @ckaiser in https://github.com/aseprite/aseprite/pull/6043\r\n* Fix crash pasting tilemaps w/matching flags by @dacap in https://github.com/aseprite/aseprite/pull/6053\r\n* [win] Locate vcvars64.bat via vswhere instead of hardcoding the path by @Cerallin in https://github.com/aseprite/aseprite/pull/6054\r\n\r\n**Full Changelog**: https://github.com/aseprite/aseprite/compare/v1.3.18.5...v1.3.18.6",
-    "build_status": "building",
-    "download_url": "https://github.com/chengxiangyu-cmd/aseprite-builder/actions/runs/45830750771",
+    "build_status": "ready",
+    "download_url": "https://github.com/chengxiangyu-cmd/aseprite-builder/actions/runs/45882172569",
     "detected_at": "2026-09-22",
     "artifact": "aseprite-v1.3.18.6",
-    "installer_sha256": "64FD77D11D9C08940F90DFA278BECA0240D0E96EA7D3364886134D9B9F56F983",
-    "built_at": "2026-11-26T13:51:41.3128593Z"
+    "installer_sha256": "BB8A4D31E7F5D99EC2607D3F83BA922EE1CF9E7D643A3F6BB489A8843C2BE7B0",
+    "built_at": "2026-11-26T19:28:37.9712372Z"
   },
   "history": [
     {
